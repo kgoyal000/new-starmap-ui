@@ -560,7 +560,7 @@ h1{
 
 .form-check-input:checked[type=radio] {
     background-image: url(../images/model_input_img.png);
-    background-size: 65%;
+    background-size: 8px;
     background-color: #F6F0EC;
 }
 
@@ -628,6 +628,12 @@ h1{
 .design_tab_bg_img_cont div{
     width: 15%;
 }
+
+.design_tab_img_border img{
+    border: 2px solid #FE6060;
+    border-radius: 10px;
+}
+
 .product_tab_format_cont::before{
     content: '';
     width: 20px;
@@ -894,9 +900,10 @@ h1{
         }
         .form-check-input:checked[type=radio] {
             background-image: url(../images/model_input_img.png);
-            background-size: 52%;
+            background-size:6px;
             background-color: #F6F0EC;
         }
+        
 
         .products_s1_heading{
             display: inline-block;
@@ -985,5 +992,10 @@ h1{
         }
     }
 
+    @media screen and (min-width:1593px) {
+        .s7_heading_col{
+            width: 60%;
+        }
+        }
 
     
